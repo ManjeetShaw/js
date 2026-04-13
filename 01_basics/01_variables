@@ -1,0 +1,36 @@
+const accountId = 12345
+let accountEmail = "manjeet@007@google.com"
+var accountPAssword = "54321"
+accountCity ="Kolkata"
+
+
+//accountID = 2 //not allowed
+accountEmail = "h@ab.com"
+accountPAssword = "212121"
+accountCity = "Bihar"
+
+console.log(accountId);
+
+console.table([accountEmail,accountPAssword,accountCity]);
+
+
+let name =" Manjeet"
+let age = 23
+let isLoggedIn = true
+
+// number 2 to power 53
+//bigint
+//string => "
+//boolean => true/false"
+//null = standalone
+//undefined => 
+//symbol
+
+//object
+
+console.log(typeof undefined);
+console.log(typeof null);
+
+
+
+
