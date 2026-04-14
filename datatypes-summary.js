@@ -14,3 +14,10 @@ let myObj = {
     name: "Manjeet",
     age: 23,
 }
+
+// storing function in a variables
+
+const myFunction = function() {
+    conlose.log ("Hello World");
+}
+console.log(typeof myFunction);
