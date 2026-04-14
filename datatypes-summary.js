@@ -21,3 +21,15 @@ const myFunction = function() {
     conlose.log ("Hello World");
 }
 console.log(typeof myFunction);
+
+
+
+// Primitive data type uses Stack Memory
+
+// Non Primitive data type uses Heap Memory
+
+let myYouTubename = "Termi07"
+
+let anothername = myYouTubename
+
+console.log(anothername)
