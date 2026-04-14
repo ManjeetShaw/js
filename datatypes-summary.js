@@ -7,3 +7,10 @@ const anotherId = Symbol('123')
 console.log(id === anotherId);
 
 const bigNumber = 3252524374682643583727n
+
+
+const heros = ["Spideman", "ironman", "Thor", "Loki"];
+let myObj = {
+    name: "Manjeet",
+    age: 23,
+}
