@@ -33,3 +33,17 @@ let myYouTubename = "Termi07"
 let anothername = myYouTubename
 
 console.log(anothername)
+
+//declaring two diff user using obj but getting same  output
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
