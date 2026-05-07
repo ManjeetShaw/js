@@ -25,6 +25,16 @@
 
 
 // Random boolean array
-const boolArray = Array.from({ length: 5 }, () => Math.random() < 0.5);
-console.log(boolArray); // e.g. [true, false, true, true, false]
+// const boolArray = Array.from({ length: 5 }, () => Math.random() < 0.5);
+// console.log(boolArray); // e.g. [true, false, true, true, false]
 
+
+
+
+
+// Use in an if statement
+if (Math.random() < 0.5) {
+  console.log("You got lucky!");
+} else {
+  console.log("Better luck next time.");
+}
