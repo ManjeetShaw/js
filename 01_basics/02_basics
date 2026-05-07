@@ -1,0 +1,17 @@
+// Arrays
+
+const myArr = [0,1,2,3,4,5]
+const myHeros = ["IronMan", "CaptainAmerica"]
+
+const myArr2 = new Array(1,2,3,4)
+console.log(myArr[1]);
+
+//Array Methods
+
+// myArr.push(6) // add the number to the last pos
+// myArr.pop(4)
+console.log(myArr);
+myArr.unshift(9)
+
+console.log(myHeros);
+
